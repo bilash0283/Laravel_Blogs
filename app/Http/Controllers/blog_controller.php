@@ -11,4 +11,10 @@ class blog_controller extends Controller
     {
        echo "this is page view for name of success";
     }
+
+    public function index()
+    {
+        view('home');
+    }
+
 }
