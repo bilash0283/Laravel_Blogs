@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/blog-create',[blog_controller::class,'blog_create'])->name('blog_create');
+Route::get('/create ',[blog_controller::class,'add_blog'])->name('blog_create');

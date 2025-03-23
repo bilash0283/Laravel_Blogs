@@ -3,11 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use function Termwind\render;
 
 class blog_controller extends Controller
 {
-    public function blog_create()
+    public function add_blog()
     {
-        echo "blog cretae page";
+       view('add-blog');
     }
 }
