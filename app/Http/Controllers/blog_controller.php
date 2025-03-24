@@ -9,7 +9,7 @@ class blog_controller extends Controller
 {
     public function add_blog()
     {
-       echo "this is page view for name of success";
+        view('add-blog');
     }
 
     public function index()
