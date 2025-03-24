@@ -2,11 +2,10 @@
 
 namespace App\Models;
 
-use GuzzleHttp\Promise\Create;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 
-class blog_model extends Model
+class BlogModel extends Model
 {
     public function store_blog_data($blog)
     {

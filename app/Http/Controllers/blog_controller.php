@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BlogModel;
 use Illuminate\Http\Request;
 use function Termwind\render;
-use App\Models\blog_model;
+use Illuminate\Support\Facades\DB;
 
 class blog_controller extends Controller
 {
@@ -20,9 +21,11 @@ class blog_controller extends Controller
 
     public function store(Request $request)
     {
-        $model = new blog_model();
-        return $model->store_blog_data($request);
-
+        DB::table('blogs')->insert([
+            'title' => $request->title,
+            'description' => $request->description,
+            'image' => $request->image,
+            'status' => $request->status,
+        ]);
     }
-
 }
