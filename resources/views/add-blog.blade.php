@@ -22,8 +22,8 @@
                                     placeholder="Blog Title">
                             </div>
                             <div class="my-2">
-                                <label for="img">Image</label>
-                                <input type="file" name="img" id="img" class="form-control" placeholder="Blog Title">
+                                <label for="image">Image</label>
+                                <input type="file" name="image" id="image" class="form-control" placeholder="Blog Title">
                             </div>
                             <div class="my-2">
                                 <label for="status">Status</label>
