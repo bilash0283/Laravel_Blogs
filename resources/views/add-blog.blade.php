@@ -9,7 +9,11 @@
                         <h1>Blog Information Add</h1>
                     </div>
                     <div class="card-body">
-                        <div>
+                        <div class="my-2">
+                            <label for="title">Title Name</label>
+                            <input type="text" name="title" id="title" class="form-control" placeholder="Blog Title">
+                        </div>
+                        <div class="my-2">
                             <label for="title">Title Name</label>
                             <input type="text" name="title" id="title" class="form-control" placeholder="Blog Title">
                         </div>
