@@ -2,18 +2,20 @@
 
 <section class="my-5">
     <div class="container-fluid">
-        <div class="grid grid-cols-4 gap-1.5">
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h1>Blog Information Add</h1>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <label for="title">Title Name</label>
+                            <input type="text" name="title" id="title" class="form-control" placeholder="Blog Title">
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>

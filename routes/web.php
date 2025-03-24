@@ -9,3 +9,7 @@ Route::get('/', function () {
 
 Route::get('/createBlog ',[blog_controller::class,'add_blog'])->name('blog_create');
 Route::get('/manage-blogs',[blog_controller::class,'index'])->name('blogs-manage');
+
+Route::get('/blog',function(){
+    return view('add-blog');
+});
