@@ -17,4 +17,9 @@ class blog_controller extends Controller
         view('home');
     }
 
+    public function store(Request $request)
+    {
+        dd($request);
+    }
+
 }
