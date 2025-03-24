@@ -1,4 +1,4 @@
-<footer class="bg-dark text-light">
+<footer class="bg-dark text-light ">
         <div class="container-fluid">
             <p class="text-center py-3">&copy; 2025 Daily Blogs Powerded by Mohakash Bangla</p>
         </div>
