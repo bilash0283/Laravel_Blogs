@@ -31,10 +31,10 @@
                         <a class="nav-link active" aria-current="page" href="/createBlog">Add Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Manage Blogs</a>
+                        <a class="nav-link active" aria-current="page" href="/manageBlog">Manage Blogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacts Us</a>
+                        <a class="nav-link active" aria-current="page" href="Contacts">Contacts Us</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
