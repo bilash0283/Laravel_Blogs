@@ -22,7 +22,7 @@ class blog_controller extends Controller
 
     public function store(Request $request)
     {
-       echo "form data store therer";
+        dd($request);
     }
     
 }
