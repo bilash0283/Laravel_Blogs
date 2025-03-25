@@ -7,13 +7,13 @@ use Illuminate\Support\Facades\DB;
 
 class BlogModel extends Model
 {
-    public function store_blog_data($blog)
-    {
-        DB::table('blogs')->insert([
-            'title' => $blog->title,
-            'description' => $blog->description,
-            'image' => $blog->image,
-            'status' => $blog->status,
-        ]);
-    }
+    // public function store_blog_data($blog)
+    // {
+    //     DB::table('blogs')->insert([
+    //         'title' => $blog->title,
+    //         'description' => $blog->description,
+    //         'image' => $blog->image,
+    //         'status' => $blog->status,
+    //     ]);
+    // }
 }

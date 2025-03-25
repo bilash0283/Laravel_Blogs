@@ -19,13 +19,9 @@ class blog_controller extends Controller
         view('home');
     }
 
-    public function store(Request $request)
-    {
-        DB::table('blogs')->insert([
-            'title' => $request->title,
-            'description' => $request->description,
-            'image' => $request->image,
-            'status' => $request->status,
-        ]);
-    }
+    
 }
+
+
+
+
