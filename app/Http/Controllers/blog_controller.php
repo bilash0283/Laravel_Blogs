@@ -17,7 +17,12 @@ class blog_controller extends Controller
 
     public function create()
     {
-        echo "add blog page load";
+       return view('add-blog');
+    }
+
+    public function store(Request $request)
+    {
+       echo "form data store therer";
     }
     
 }

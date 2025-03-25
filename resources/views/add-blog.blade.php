@@ -8,7 +8,7 @@
                     <div class="card-header text-center">
                         <h1>Blog Information Add</h1>
                     </div>
-                    <form action="{{ route('create_blog') }}" method="POST">
+                    <form action="/storeBlog" method="POST">
                         @csrf
                         <div class="card-body">
                             <div class="my-2">

@@ -9,6 +9,7 @@ Route::get('/', function () {
 
 
 Route::get('/createBlog',[blog_controller::class,'create']);
+// Route::post('storeBlog',[blog_controller::class,'store']);
 
 
 
