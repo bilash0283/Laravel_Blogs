@@ -1,6 +1,6 @@
 <footer class="bg-dark text-light ">
         <div class="container-fluid">
-            <p class="text-center py-3">&copy; 2025 Daily Blogs Powerded by Mohakash Bangla</p>
+            <p class="text-center py-3">&copy; {{date('Y')}} Daily Blogs Powerded by Mohakash Bangla</p>
         </div>
     </footer>
 
