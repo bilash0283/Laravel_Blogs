@@ -22,7 +22,9 @@ class blog_controller extends Controller
 
     public function store(Request $request)
     {
-        dd($request);
+        echo "<pre>";
+        print_r($_POST);
+        echo "</pre>";
     }
     
 }
